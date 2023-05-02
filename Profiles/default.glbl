@@ -26,7 +26,37 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'login'</initValue>
+      <name>login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'dashboard'</initValue>
       <name>dashboard</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&quot;email&quot; is not allowed to be empty'</initValue>
+      <name>alertEmailEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&quot;password&quot; is not allowed to be empty'</initValue>
+      <name>alertPasswordEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'blblasasndasd23@mail.com'</initValue>
+      <name>unregisteredEmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kredensial yang Anda berikan salah'</initValue>
+      <name>alertUnregistered</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sdadasfasdfsd'</initValue>
+      <name>wrongPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
