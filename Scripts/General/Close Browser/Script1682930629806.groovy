@@ -17,19 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
-
-WebUI.click(findTestObject('Object Repository/Register/button_toRegister'))
-
-WebUI.setText(findTestObject('Object Repository/Register/input_nama toko_name'), 'tokokazuha')
-
-WebUI.setText(findTestObject('Object Repository/Register/input_email_email'), 'kazuha@mail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_password_password'), '4hq/NUNFRf9qhP3cKfb3Fg==')
-
-WebUI.click(findTestObject('Object Repository/Register/button_submitDaftar'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Register/div_Toko berhasil didaftarkan'))
-
-
-
+WebUI.closeBrowser()

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_daftar</name>
+   <name>button_submitDaftar</name>
    <tag></tag>
    <elementGuidId>0de1d1a4-814f-4e8d-8979-dd4ab1a99fb0</elementGuidId>
    <selectorCollection>

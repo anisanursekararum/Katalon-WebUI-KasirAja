@@ -17,19 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
+WebUI.navigateToUrl(GlobalVariable.baseURL)
 
-WebUI.click(findTestObject('Object Repository/Register/button_toRegister'))
+WebUI.setText(findTestObject('Object Repository/Login/input_email_email'), GlobalVariable.email)
 
-WebUI.setText(findTestObject('Object Repository/Register/input_nama toko_name'), 'tokokazuha')
+WebUI.setText(findTestObject('Object Repository/Login/input_password_password'), GlobalVariable.password)
 
-WebUI.setText(findTestObject('Object Repository/Register/input_email_email'), 'kazuha@mail.com')
+WebUI.click(findTestObject('Object Repository/Login/button_login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_password_password'), '4hq/NUNFRf9qhP3cKfb3Fg==')
+WebUI.verifyElementVisible(findTestObject('Object Repository/Login/dt_tokokitaHai'))
 
-WebUI.click(findTestObject('Object Repository/Register/button_submitDaftar'))
+GlobalVariable.name = WebUI.verifyElementVisible(findTestObject('Object Repository/Login/nama_toko'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Register/div_Toko berhasil didaftarkan'))
+url = WebUI.getUrl()
 
-
-
+url = (GlobalVariable.baseURL)+(GlobalVariable.dashboard)
