@@ -16,15 +16,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.apache.commons.lang.RandomStringUtils as RandStr
 
 url = (GlobalVariable.baseURL)+(GlobalVariable.login)
 
+Random rand = new Random ();
+
+upperLimit = 9999999
+
+icnt = rand.nextInt(upperLimit);
+
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_password_password'), GlobalVariable.password)
+WebUI.click(findTestObject('Object Repository/Register/button_toRegister'))
+
+WebUI.setText(findTestObject('Object Repository/Register/input_nama_toko'), GlobalVariable.name)
+
+WebUI.setText(findTestObject('Object Repository/Register/input_email'), 'kazuha'+icnt.toString()+'@mail.com')
+
+WebUI.setText(findTestObject('Object Repository/Register/input_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/General/button'))
 
-WebUI.verifyTextPresent(GlobalVariable.alertEmailEmpty, false)
+WebUI.verifyTextPresent(GlobalVariable.alertSuccessRegister1, false)
+
+WebUI.verifyTextPresent(GlobalVariable.alertSuccessRegister2, false)
 
 WebUI.verifyMatch(WebUI.getUrl(), url, false)
+

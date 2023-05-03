@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+url = (GlobalVariable.baseURL)+(GlobalVariable.login)
+
 WebUI.navigateToUrl(GlobalVariable.baseURL)
 
 WebUI.setText(findTestObject('Object Repository/Login/input_email_email'), GlobalVariable.email)
 
-WebUI.click(findTestObject('Object Repository/Login/button_login'))
+WebUI.click(findTestObject('Object Repository/General/button'))
 
-GlobalVariable.alertPasswordEmpty = WebUI.verifyElementVisible(findTestObject('Object Repository/Login/alertEmptyForm'))
+WebUI.verifyTextPresent(GlobalVariable.alertPasswordEmpty, false)
 
-url = WebUI.getUrl()
-
-url = (GlobalVariable.baseURL)+(GlobalVariable.login)
+WebUI.verifyMatch(WebUI.getUrl(), url, false)

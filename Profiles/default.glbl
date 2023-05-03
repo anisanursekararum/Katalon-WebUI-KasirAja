@@ -26,6 +26,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'register'</initValue>
+      <name>register</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'login'</initValue>
       <name>login</name>
    </GlobalVariableEntity>
@@ -36,6 +41,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'&quot;name&quot; is not allowed to be empty'</initValue>
+      <name>alertNameEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'&quot;email&quot; is not allowed to be empty'</initValue>
       <name>alertEmailEmpty</name>
    </GlobalVariableEntity>
@@ -43,6 +53,11 @@
       <description></description>
       <initValue>'&quot;password&quot; is not allowed to be empty'</initValue>
       <name>alertPasswordEmpty</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'&quot;email&quot; must be a valid email'</initValue>
+      <name>alertInvalidEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -58,5 +73,15 @@
       <description></description>
       <initValue>'sdadasfasdfsd'</initValue>
       <name>wrongPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Toko berhasil didaftarkan'</initValue>
+      <name>alertSuccessRegister1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'anda dapat menggunakan login sekarang'</initValue>
+      <name>alertSuccessRegister2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

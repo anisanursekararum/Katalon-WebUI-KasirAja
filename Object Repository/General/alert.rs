@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>alertEmptyForm</name>
+   <name>alert</name>
    <tag></tag>
    <elementGuidId>80b78d46-7a8d-47ee-a5b8-58d5baf90f5e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.chakra-alert.css-qwanz3</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@role='alert']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.chakra-alert.css-qwanz3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -17,19 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://kasirdemo.belajarqa.com/')
+url = (GlobalVariable.baseURL)+(GlobalVariable.register)
+
+WebUI.navigateToUrl(GlobalVariable.baseURL)
 
 WebUI.click(findTestObject('Object Repository/Register/button_toRegister'))
 
-WebUI.setText(findTestObject('Object Repository/Register/input_nama toko_name'), 'tokokazuha')
+WebUI.setText(findTestObject('Object Repository/Register/input_nama_toko'), GlobalVariable.name)
 
-WebUI.setText(findTestObject('Object Repository/Register/input_email_email'), 'kazuha@mail.com')
+WebUI.setText(findTestObject('Object Repository/Register/input_password'), GlobalVariable.password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Register/input_password_password'), '4hq/NUNFRf9qhP3cKfb3Fg==')
+WebUI.click(findTestObject('Object Repository/General/button'))
 
-WebUI.click(findTestObject('Object Repository/Register/button_submitDaftar'))
+WebUI.verifyTextPresent(GlobalVariable.alertEmailEmpty, false)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Register/div_Toko berhasil didaftarkan'))
-
+WebUI.verifyMatch(WebUI.getUrl(), url, false)
 
 

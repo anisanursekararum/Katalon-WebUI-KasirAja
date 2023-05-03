@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_email_email</name>
+   <name>input_nama_toko</name>
    <tag></tag>
-   <elementGuidId>ff78ae48-7be5-4352-95e8-78bd6b573f05</elementGuidId>
+   <elementGuidId>95970918-6b9d-4f10-8b96-2ce384205cf8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <value>//input[@id='name']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#email</value>
+         <value>#name</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,31 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a188afe1-edd9-4255-837c-84e3babbf4c0</webElementGuid>
+      <webElementGuid>23e59ca6-00ee-4b73-9add-aefafbd6ebd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>d305af56-5cc0-46c5-aff9-4db29f2b9325</webElementGuid>
+      <value>text</value>
+      <webElementGuid>1a937cfa-a21a-444d-a713-6d0fad5d5ad2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>c51cd580-504b-4b8d-a263-e5fd2e202731</webElementGuid>
+      <value>nama toko</value>
+      <webElementGuid>1730cc94-5289-4368-9650-6239ff2e6010</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>ef85352d-d46b-4f2f-a1c9-e6faeca7aa65</webElementGuid>
+      <value>name</value>
+      <webElementGuid>3c020978-ff55-41a9-9eb2-c1c4b3f12ef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,46 +54,46 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-input css-ksd4gw</value>
-      <webElementGuid>9295dcc4-eb7a-4bb4-a45c-bf6c76785886</webElementGuid>
+      <webElementGuid>e1e38c91-f2d4-4d31-a487-03a3822202fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;email&quot;)</value>
-      <webElementGuid>b2844deb-eae1-4260-8330-4a6f6abd5649</webElementGuid>
+      <value>id(&quot;name&quot;)</value>
+      <webElementGuid>5052d452-5198-4260-8257-93a2ae7def60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='email']</value>
-      <webElementGuid>467cbec4-c4fb-4fe6-b145-efc9e9e5441a</webElementGuid>
+      <value>//input[@id='name']</value>
+      <webElementGuid>9ca584a8-43db-4630-900f-8b9e316170b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div[2]/div/div[2]/input</value>
-      <webElementGuid>1b3fe0cf-53a1-4983-a1f2-01dc8445df5f</webElementGuid>
+      <value>//div[@id='root']/div/div/div/div[2]/div/div/input</value>
+      <webElementGuid>8fd25c8b-1b71-4612-89c4-3c92190af54f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>1fc054fa-fa19-405f-9e34-1a97a26e0be7</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>b4c1b636-51f3-499f-b839-048d65869111</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'email' and @placeholder = 'email' and @id = 'email']</value>
-      <webElementGuid>3deb4816-dcb4-4d8f-8df3-cf10365f88dd</webElementGuid>
+      <value>//input[@type = 'text' and @placeholder = 'nama toko' and @id = 'name']</value>
+      <webElementGuid>7078532e-7ee8-44ab-8187-1984121a65e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

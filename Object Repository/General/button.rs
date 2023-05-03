@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_submitDaftar</name>
+   <name>button</name>
    <tag></tag>
-   <elementGuidId>0de1d1a4-814f-4e8d-8979-dd4ab1a99fb0</elementGuidId>
+   <elementGuidId>6783ef65-6cb9-4296-9a20-2712b97a48db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c9b5a3cc-cc46-46d0-b5c0-6884c2b775b1</webElementGuid>
+      <webElementGuid>0bac7419-3ad1-46c9-9f5c-f01767928798</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>f9119b94-e73a-4584-aec9-1ebef0cdb4a2</webElementGuid>
+      <webElementGuid>27d58469-fc65-4e8f-8474-b51ff6c4f684</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +38,15 @@
       <name>class</name>
       <type>Main</type>
       <value>chakra-button css-1n8i4of</value>
-      <webElementGuid>a90364cf-7768-4cce-bfdb-40726ee58530</webElementGuid>
+      <webElementGuid>8f73b878-70b8-494f-a09a-c28fb9054410</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>daftar</value>
-      <webElementGuid>8e2c612d-7c90-4d2c-9b3b-9a1729bf3e2b</webElementGuid>
+      <value>login</value>
+      <webElementGuid>1665a691-d6a5-476c-b23a-f74f0a808fb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;css-1y1lvqg&quot;]/div[@class=&quot;css-16in75i&quot;]/div[@class=&quot;css-1w7v3tn&quot;]/div[@class=&quot;css-11jlpvc&quot;]/button[@class=&quot;chakra-button css-1n8i4of&quot;]</value>
-      <webElementGuid>1f2190aa-40e1-4f3a-9b6f-3053a5ebafff</webElementGuid>
+      <webElementGuid>49765a1c-dfc0-4d3a-b2d9-d0921c30f97f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>0984ab99-f8f5-4646-b4a5-b51e5544e246</webElementGuid>
+      <webElementGuid>1c5ce469-0752-42fb-aa80-a72e7c22a36f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,46 +70,46 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div/div[2]/div/button</value>
-      <webElementGuid>3a0adf2f-28aa-4349-9d5e-86ac5b0c681b</webElementGuid>
+      <webElementGuid>ead66268-3843-41e2-a7fa-cf8d44679736</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='sudah punya akun, login ?'])[1]/following::button[1]</value>
-      <webElementGuid>a3e1f66e-b0f9-4580-9221-2bbc6e27e2f5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ingin mencoba, daftar ?'])[1]/following::button[1]</value>
+      <webElementGuid>8dec126c-6cc2-4766-be2d-c895ba598fe1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='password'])[1]/following::button[2]</value>
-      <webElementGuid>6ec814fb-09e2-455b-b551-dc842282aaae</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='password'])[1]/following::button[1]</value>
+      <webElementGuid>0e39c04a-65a1-4033-b9a4-9a40b4bf7564</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='daftar']/parent::*</value>
-      <webElementGuid>6210e0a2-1c0a-4932-bd0d-e77f798793ec</webElementGuid>
+      <value>//*/text()[normalize-space(.)='login']/parent::*</value>
+      <webElementGuid>d4f8ab56-dee0-4e22-a471-6fc26b429907</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/button</value>
-      <webElementGuid>1c0d4bb6-6b99-43ac-a86e-05e20ee0fbc3</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>2d3a9499-e78d-4f88-b515-fc147724ab12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'daftar' or . = 'daftar')]</value>
-      <webElementGuid>c53b26ee-7225-490f-a1c8-0d2144713f6b</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = 'login' or . = 'login')]</value>
+      <webElementGuid>db09d571-fe74-4158-80fa-bc5ffecc374c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
