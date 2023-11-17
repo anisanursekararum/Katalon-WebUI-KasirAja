@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>negativeLoginEmailUnregistered</name>
+   <name>TC - Close Browser</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b8a3bb1a-329d-4234-b16e-4db25d750001</testCaseGuid>
+   <testCaseGuid>10fc3f75-0d9a-4559-a18e-55ffc2b343bf</testCaseGuid>
 </TestCaseEntity>

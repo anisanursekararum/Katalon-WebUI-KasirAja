@@ -15,49 +15,49 @@
       <guid>2ab234ed-7467-4d3b-a6f0-3a8fff38e649</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/General/Open Browser</testCaseId>
+      <testCaseId>Test Cases/General/TC - Open Browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>db978923-c0c3-4641-a1e1-02b102859414</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/negativeLoginEmptyForm</testCaseId>
+      <testCaseId>Test Cases/Login/TC - negativeLoginEmptyForm</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>efa7cdfd-69bd-4743-ade2-27e5d52f0386</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/negativeLoginEmailEmpty</testCaseId>
+      <testCaseId>Test Cases/Login/TC - negativeLoginEmailEmpty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c0124363-b3e8-4cf7-adb1-697b63bde96f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/negativeLoginPasswordEmpty</testCaseId>
+      <testCaseId>Test Cases/Login/TC - negativeLoginPasswordEmpty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>571493d0-20f8-4c84-989d-a3664f2a99b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/negativeLoginEmailUnregistered</testCaseId>
+      <testCaseId>Test Cases/Login/TC - negativeLoginEmailUnregistered</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5f33aebc-6376-4a95-80d8-d37b797c1fb1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/negativeLoginWrongPassword</testCaseId>
+      <testCaseId>Test Cases/Login/TC - negativeLoginWrongPassword</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>142f7c62-b0ed-4fd1-a781-e162fb7df00f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/General/Close Browser</testCaseId>
+      <testCaseId>Test Cases/General/TC - Close Browser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

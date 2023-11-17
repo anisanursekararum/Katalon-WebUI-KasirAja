@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>negativeRegisterEmailEmpty</name>
+   <name>TC - positiveRegister</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9a774f7f-8b05-4953-97f3-61db621add6c</testCaseGuid>
+   <testCaseGuid>7073c3d9-188e-484a-990a-a1bc10a606b1</testCaseGuid>
 </TestCaseEntity>
